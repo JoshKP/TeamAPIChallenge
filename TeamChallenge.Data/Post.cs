@@ -19,7 +19,8 @@ namespace TeamChallenge.Data
         [Required]
         public string Content { get; set; }
 
-        public SocialMediaUser Author { get; set; }
+        [Required]
+        public Guid Author { get; set; }
 
     }
 }

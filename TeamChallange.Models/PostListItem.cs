@@ -11,7 +11,6 @@ namespace TeamChallange.Models
     {
         public int PostId { get; set; }
         public string Title { get; set; }
-        [Display(Name ="Created")]
-        public DateTimeOffset CreatedUtc { get; set; }
+        public string Content { get; set; }
     }
 }
