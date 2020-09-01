@@ -9,6 +9,5 @@ namespace TeamChallange.Models
    public class Reply : Comment
     {
         public Comment ReplyComment { get; set; }
-
     }
 }

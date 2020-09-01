@@ -20,3 +20,25 @@ C:\EFA Work\TeamChallenge\TeamChallenge.Services\bin\Debug\TeamChallange.Models.
 C:\EFA Work\TeamChallenge\TeamChallenge.Services\bin\Debug\TeamChallange.Models.dll.config
 C:\EFA Work\TeamChallenge\TeamChallenge.Services\bin\Debug\TeamChallenge.Data.pdb
 C:\EFA Work\TeamChallenge\TeamChallenge.Services\bin\Debug\TeamChallenge.Data.dll.config
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\bin\Debug\TeamChallenge.Services.dll.config
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\bin\Debug\TeamChallenge.Services.dll
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\bin\Debug\TeamChallenge.Services.pdb
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\bin\Debug\EntityFramework.dll
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\bin\Debug\TeamChallange.Models.dll
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\bin\Debug\TeamChallenge.Data.dll
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\bin\Debug\TeamChallange.Models.pdb
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\bin\Debug\TeamChallange.Models.dll.config
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\bin\Debug\TeamChallenge.Data.pdb
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\bin\Debug\TeamChallenge.Data.dll.config
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\bin\Debug\EntityFramework.xml
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\obj\Debug\TeamChallenge.Services.csprojAssemblyReference.cache
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\obj\Debug\TeamChallenge.Services.csproj.CoreCompileInputs.cache
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\obj\Debug\TeamChallenge.Services.csproj.CopyComplete
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\obj\Debug\TeamChallenge.Services.dll
+C:\Users\peytn\OneDrive\Desktop\ElevenFiftyProjects\DotNetProjects\TeamAPIChallenge\TeamChallenge.Services\obj\Debug\TeamChallenge.Services.pdb

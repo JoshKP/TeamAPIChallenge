@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -10,10 +12,18 @@ namespace TeamChallange.Models
 {
     public class Comment
     {
-        public int Id { get; set; }
-        public string Text { get; set; }
-        public SocialMediaUser Author { get; set; }
-        public Post CommentPost { get; set; }
+        [Key]
+        public Guid Id { get; set; }
 
+        [ForeignKey(nameof(PostComment))]
+        public int PostID { get; set; }
+        public virtual Post PostComment { get; set; }
+
+        [Required]
+        public string Text { get; set; }
+
+        [ForeignKey(nameof(Author))]
+        public Guid UserID { get; set; }
+        public virtual SocialMediaUser Author { get; set; }
     }
 }
