@@ -33,6 +33,5 @@ C:\EFA Work\TeamChallenge\TeamChallenge.Data\obj\Debug\TeamChallenge.Data.csproj
 C:\EFA Work\TeamChallenge\TeamChallenge.Data\obj\Debug\TeamChallenge.Data.csproj.CopyComplete
 C:\EFA Work\TeamChallenge\TeamChallenge.Data\obj\Debug\TeamChallenge.Data.dll
 C:\EFA Work\TeamChallenge\TeamChallenge.Data\obj\Debug\TeamChallenge.Data.pdb
-C:\EFA Work\TeamChallenge\TeamChallenge.Data\obj\Debug\TeamChallenge.Data.Migrations.InitialCreate.resources
+C:\EFA Work\TeamChallenge\TeamChallenge.Data\obj\Debug\TeamChallenge.Data.Migrations.attempt50.resources
 C:\EFA Work\TeamChallenge\TeamChallenge.Data\obj\Debug\TeamChallenge.Data.csproj.GenerateResource.cache
-C:\EFA Work\TeamChallenge\TeamChallenge.Data\obj\Debug\TeamChallenge.Data.Migrations.firstmigration.resources

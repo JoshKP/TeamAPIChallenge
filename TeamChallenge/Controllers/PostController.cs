@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 using TeamChallange.Models;
 using TeamChallenge.Services;
@@ -13,11 +12,19 @@ namespace TeamChallenge.Controllers
     [Authorize]
     public class PostController : ApiController
     {
+        private readonly SocialMediaUser _userId;
+
         public IHttpActionResult Get()
         {
             PostService postService = CreatePostService();
             var posts = postService.GetPosts();
             return Ok(posts);
+        }
+        public IHttpActionResult Get(int id)
+        {
+            PostService postService = CreatePostService();
+            var post = postService.GetPostById(id);
+            return Ok(post);
         }
         public IHttpActionResult Post(PostCreate post)
         {
@@ -34,8 +41,8 @@ namespace TeamChallenge.Controllers
 
         private PostService CreatePostService()
         {
-            var userId = Guid.Parse(User.Identity.GetUserId());
-            var postService = new PostService(userId);
+            // var userId = User.Identity.GetUserId();
+            var postService = new PostService(_userId);
             return postService;
         }
     }

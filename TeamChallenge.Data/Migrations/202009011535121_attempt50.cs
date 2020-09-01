@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class firstmigration : DbMigration
+    public partial class attempt50 : DbMigration
     {
         public override void Up()
         {
@@ -19,7 +19,6 @@
                 .PrimaryKey(t => t.SocialMediaUserId);
             
             AddColumn("dbo.Post", "PostId", c => c.Int(nullable: false, identity: true));
-            AddColumn("dbo.Post", "OwnerId", c => c.Guid(nullable: false));
             AddColumn("dbo.Post", "Content", c => c.String(nullable: false));
             AddColumn("dbo.Post", "Author_SocialMediaUserId", c => c.Guid());
             AddPrimaryKey("dbo.Post", "PostId");
@@ -38,7 +37,6 @@
             DropPrimaryKey("dbo.Post");
             DropColumn("dbo.Post", "Author_SocialMediaUserId");
             DropColumn("dbo.Post", "Content");
-            DropColumn("dbo.Post", "OwnerId");
             DropColumn("dbo.Post", "PostId");
             DropTable("dbo.SocialMediaUser");
             AddPrimaryKey("dbo.Post", "Id");

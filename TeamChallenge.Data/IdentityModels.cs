@@ -5,6 +5,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using TeamChallange.Models;
 
 namespace TeamChallenge.Data
 {
@@ -33,6 +34,7 @@ namespace TeamChallenge.Data
         }
 
         public DbSet<Post> Posts { get; set; }
+        public DbSet<SocialMediaUser> SocialMediaUsers { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

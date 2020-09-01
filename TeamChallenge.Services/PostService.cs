@@ -51,5 +51,22 @@ namespace TeamChallenge.Services
                 return query.ToArray();
             }
         }
+        public PostDetail GetPostById(int id)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                        .Posts
+                        .Single(e => e.PostId == id && e.Author == _userId);
+                return
+                    new PostDetail
+                    {
+                        PostId = entity.PostId,
+                        Title = entity.Title,
+                        Content = entity.Content,
+                    };
+            }
+        }
     }
 }
